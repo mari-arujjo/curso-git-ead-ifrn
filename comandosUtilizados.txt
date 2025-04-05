@@ -1,0 +1,11 @@
+mkdir curso-git-ead-ifrn
+cd curso-git-ead-ifrn
+git init
+git config user.name "mariana"
+git config user.email "mariana.estudo9889@gmail.com"
+echo "Mariana Araújo - 20242158060025" > meusDados.txt
+git add meusDados.txt
+git commit -m "Adição do arquivo com meu nome e minha matricula"
+git remote add origin https://github.com/mari-arujjo/curso-git-ead-ifrn.git
+git branch -M main
+git push -u origin main
